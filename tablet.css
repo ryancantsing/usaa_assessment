@@ -1,0 +1,73 @@
+/* Main divs */
+.wrapper{
+    display: inline-block;
+    height: 800px;
+    width: 100%;
+}
+.topHalf {
+    background-color: #4071B6;
+    display: inline-block;
+    height: 50%;
+    width: 100%;
+    border: 1px solid black;
+}
+.bottomHalf{
+    background-color: #4D7ABC;
+    display: inline-block;
+    height: 40%;
+    width: 100%;
+    border: 1px solid black;
+
+}
+/* Top Bar */
+.topBar{
+    display: inline-block;
+    height: 13%;
+    width: 100%;
+    border: 1px solid black;
+}
+.whiteLogo{
+    height: 100%;
+    width: 70px;
+    background-color: white;
+}
+
+.textAndEmail{
+    display: inline-block;
+    height: 60%;
+    width: 100%;
+    border: 1px solid black;
+}
+.checkAndText{
+    display: inline-block;
+    height: 25%;
+    width: 100%;
+    border: 1px solid black;
+}
+.bottomLeftSide{
+    display: inline-block;
+    width: 40%;
+    height: 100%;
+    border: 1px solid black;
+
+}
+.bottomCenterLogo{
+    display: inline-block;
+    width: 15%;
+    height: 100%;
+    border: 1px solid black;
+}
+.bottomRightSide{
+    display: inline-block;
+    width: 40%;
+    height: 100%;
+    border: 1px solid black;
+}
+.plainFooter{
+    height: 10%;
+    width: 100%;
+    background-color: #FFFFFF;
+    display: inline-block;
+    border: 1px solid black;
+}
+
