@@ -2,14 +2,14 @@
 .wrapper{
     background-color: blue;
     display: inline-block;
-    height: 1000px;
+    height: 900px;
     width: 1200px;
     font-family: 'Roboto', sans-serif;
 }
 .topHalf {
     background-color: #4071B6;
     display: inline-block;
-    height: 40%;
+    height: 50%;
     width: 100%;
     background-image: url('../images/recycle-back.png');
     background-repeat: no-repeat;
@@ -19,7 +19,7 @@
 .bottomHalf{
     background-color: #4D7ABC;
     display: inline-block;
-    height: 50%;
+    height: 40%;
     width: 100%;
 
 }
@@ -36,6 +36,9 @@
     margin-left: 20px;
     margin-top: 5px;
     display: inline-block;
+    color: #135FAB;
+    text-align: center;
+    font-weight: bold;
 }
 .rightSideLinks{
     display: inline-block;
@@ -89,17 +92,32 @@
     height: 44px;
     width: 200px;
     border-radius: 7px;
+    background-color: #004B8E;
+    color: #4B79BB;
+    border-style: none;
+}
+.emailInput::placeholder{
+    color: #4B79BB;
+    font-size: 16px;
 }
 .districtSelector{
-    height: 50px;
+    height: 46px;
     width: 200px;
     border-radius: 7px;
+    background-color: #004B8E;
+    color: #4B79BB;
+    border-style: none;
+    font-size: 16px;
 }
 .goButton{
-    height: 50px;
+    height: 46px;
     width: 150px;
     border-radius: 7px;
     background-color: white;
+    border-color: #004B8E;
+    color: #004B8E;
+    font-weight: bold;
+    font-size: 16px;
 }
 .checkmark{
     display: inline-block;
@@ -124,9 +142,9 @@
     color: #5AFFA8;
 }
 .bottomLeftText{
-    font-size: 46px;
+    font-size: 40px;
     display: inline-block;
-    color: #C9D7EA;
+    color: #FBFCFD;
 }
 .bottomCenterLogo{
     display: inline-block;
@@ -139,8 +157,8 @@
     border-left: 1px solid white;
     position: relative;
     left: 50%;
-    height: 100%;
-    bottom: 25%;
+    height: 120%;
+    bottom: 55%;
 }
 .bottomRightSide{
     display: inline-block;
@@ -171,5 +189,9 @@
     width: 100%;
     background-color: white;
     display: inline-block;
+    text-align: center;
+    padding-top: 25px;
+    color: #4071B6;
+    font-size: 14px;
 }
 
