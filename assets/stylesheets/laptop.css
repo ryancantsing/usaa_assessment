@@ -1,0 +1,175 @@
+/* Browser Size */
+.wrapper{
+    background-color: blue;
+    display: inline-block;
+    height: 1000px;
+    width: 1200px;
+    font-family: 'Roboto', sans-serif;
+}
+.topHalf {
+    background-color: #4071B6;
+    display: inline-block;
+    height: 40%;
+    width: 100%;
+    background-image: url('../images/recycle-back.png');
+    background-repeat: no-repeat;
+    background-position: 50px;
+    background-size: contain;
+}
+.bottomHalf{
+    background-color: #4D7ABC;
+    display: inline-block;
+    height: 50%;
+    width: 100%;
+
+}
+/* Top Bar */
+.topBar{
+    display: inline-block;
+    height: 60px;
+    width: 100%;
+}
+.whiteLogo{
+    height: 80%;
+    width: 100px;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 5px;
+    display: inline-block;
+}
+.rightSideLinks{
+    display: inline-block;
+    height: 80%;
+    width: 30%;
+    float: right;
+    margin-top: 5px;
+    margin-right: 20px;
+    font-size: 12px;
+}
+.LINK{
+    display: inline-block;
+    height: 100%;
+    width: 30%;
+    text-align: center;
+    margin: auto;
+    padding-top: 18px;
+}
+.topLinks{
+    color: #9CB6DA;
+    text-decoration: none;
+}
+.topLinks:hover{
+    color: #9CB6DA;
+    text-decoration: none;
+}
+/* Text and Email */
+.textAndEmailRow{
+    display: inline-block;
+    height: 300px;
+    width: 100%;
+    color: white;
+    font-size: 26px;
+}
+.centerDiv{
+    width: 100%;
+    height: 70%;
+    text-align: center;
+    display: inline-block;
+    padding-top: 50px;
+}
+
+.checkAndText{
+    display: inline-block;
+    height: 40px;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+.emailInput{
+    height: 44px;
+    width: 200px;
+    border-radius: 7px;
+}
+.districtSelector{
+    height: 50px;
+    width: 200px;
+    border-radius: 7px;
+}
+.goButton{
+    height: 50px;
+    width: 150px;
+    border-radius: 7px;
+    background-color: white;
+}
+.checkmark{
+    display: inline-block;
+    height: 15px;
+}
+.receiveUpdates{
+    display: inline-block;
+}
+
+/* Bottom Parts */
+.bottomLeftSide{
+    display: inline-block;
+    width: 41%;
+    height: 100%;
+    margin-left: 10px;
+    vertical-align: top;
+    text-align: center;
+}
+#result{
+    font-size: 100px;
+    display: inline-block;
+    color: #5AFFA8;
+}
+.bottomLeftText{
+    font-size: 46px;
+    display: inline-block;
+    color: #C9D7EA;
+}
+.bottomCenterLogo{
+    display: inline-block;
+    width: 15%;
+    height: 68%;
+    vertical-align: top;
+    padding-top: 165px;
+}
+.centerLine{
+    border-left: 1px solid white;
+    position: relative;
+    left: 50%;
+    height: 100%;
+    bottom: 25%;
+}
+.bottomRightSide{
+    display: inline-block;
+    width: 41%;
+    height: 100%;
+    vertical-align: top;
+    padding-top: 25px;
+
+}
+.leaderboardColor{
+    color: #E2E9F4;
+}
+.expandoBar{
+    display: inline-block;
+    height: 50px;
+    width: 0;
+}
+.logoImage{
+    display: inline-block;
+    margin-left: 35px;
+    position: absolute;
+    right: 70%;
+    top: 30%;
+}
+/* Footer */
+.plainFooter{
+    height: 10%;
+    width: 100%;
+    background-color: white;
+    display: inline-block;
+}
+
