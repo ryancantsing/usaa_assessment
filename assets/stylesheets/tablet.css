@@ -1,73 +1,187 @@
 /* Main divs */
 .wrapper{
     display: inline-block;
-    height: 800px;
+    max-height: 800px;
     width: 100%;
+    font-family: 'Roboto', sans-serif;
 }
 .topHalf {
     background-color: #4071B6;
     display: inline-block;
     height: 50%;
     width: 100%;
-    border: 1px solid black;
+    background-image: url('../images/recycle-back.png');
+    background-repeat: no-repeat;
+    background-position: 50px;
+    background-size: contain;
 }
 .bottomHalf{
     background-color: #4D7ABC;
     display: inline-block;
-    height: 40%;
+    height: 50%;
     width: 100%;
-    border: 1px solid black;
-
 }
 /* Top Bar */
 .topBar{
     display: inline-block;
-    height: 13%;
+    height: 15%;
     width: 100%;
-    border: 1px solid black;
+    margin-top: 5px;
 }
 .whiteLogo{
-    height: 100%;
+    height: 80%;
     width: 70px;
     background-color: white;
+    margin-left: 20px;
+    display: inline-block;
+    color: #135FAB;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
 }
-
+.rightSideLinks{
+    display: inline-block;
+    height: 80%;
+    width: 35%;
+    float: right;
+    margin-top: 5px;
+    margin-right: 20px;
+    font-size: 12px;
+}
+.LINK{
+    display: inline-block;
+    height: 80%;
+    width: 30%;
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+    background-color: #4D7ABC;
+    vertical-align: top;
+}
+.topLinks{
+    color: #9CB6DA;
+    text-decoration: none;
+}
+.topLinks:hover{
+    color: #9CB6DA;
+    text-decoration: none;
+}
 .textAndEmailRow{
     display: inline-block;
     height: 60%;
     width: 100%;
-    border: 1px solid black;
+    font-size: 24px;
+    color: white;
+}
+.centerDiv{
+    width: 100%;
+    height: 70%;
+    text-align: center;
+    display: inline-block;
+    padding-top: 35px;
 }
 .checkAndText{
     display: inline-block;
-    height: 25%;
+    height: 40px;
     width: 100%;
-    border: 1px solid black;
+    color: white;
+    text-align: center;
 }
+.emailInput{
+    height: 34px;
+    width: 150px;
+    border-radius: 7px;
+    background-color: #004B8E;
+    color: #4B79BB;
+    border-style: none;
+}
+.emailInput::placeholder{
+    color: #4B79BB;
+    font-size: 16px;
+}
+.districtSelector{
+    height: 36px;
+    width: 150px;
+    border-radius: 7px;
+    background-color: #004B8E;
+    color: #4B79BB;
+    border-style: none;
+    font-size: 14px;
+}
+.goButton{
+    height: 36px;
+    width: 100px;
+    border-radius: 7px;
+    background-color: white;
+    border-color: #004B8E;
+    color: #004B8E;
+    font-weight: bold;
+    font-size: 16px;
+}
+.checkmark{
+    display: inline-block;
+    height: 15px;
+}
+.receiveUpdates{
+    display: inline-block;
+}
+/* Bottom Parts */
 .bottomLeftSide{
     display: inline-block;
-    width: 40%;
+    width: 41%;
     height: 100%;
-    border: 1px solid black;
-
+    margin-left: 10px;
+    vertical-align: top;
+    text-align: center;
+}
+#result{
+    font-size: 80px;
+    display: inline-block;
+    color: #5AFFA8;
+}
+.bottomLeftText{
+    font-size: 30px;
+    display: inline-block;
+    color: #FBFCFD;
 }
 .bottomCenterLogo{
     display: inline-block;
     width: 15%;
-    height: 100%;
-    border: 1px solid black;
+    height: 68%;
+    vertical-align: top;
+    padding-top: 165px;
+}
+.logoImage{
+    display: inline-block;
+    margin-left: 35px;
+    position: absolute;
+    right: 53%;
+    top: 25%;
+}
+.centerLine{
+    border-left: 1px solid white;
+    position: relative;
+    left: 50%;
+    height: 120%;
+    bottom: 60%;
 }
 .bottomRightSide{
     display: inline-block;
-    width: 40%;
+    width: 41%;
     height: 100%;
-    border: 1px solid black;
+    vertical-align: top;
+}
+.leaderboardColor{
+    color: #E2E9F4;
 }
 .plainFooter{
     height: 10%;
     width: 100%;
-    background-color: #FFFFFF;
+    background-color: white;
     display: inline-block;
-    border: 1px solid black;
+    text-align: center;
+    padding-top: 25px;
+    color: #4071B6;
+    font-size: 14px;
 }
 

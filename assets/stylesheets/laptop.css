@@ -171,11 +171,6 @@
 .leaderboardColor{
     color: #E2E9F4;
 }
-.expandoBar{
-    display: inline-block;
-    height: 50px;
-    width: 0;
-}
 .logoImage{
     display: inline-block;
     margin-left: 35px;
