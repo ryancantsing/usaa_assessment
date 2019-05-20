@@ -113,8 +113,8 @@
     height: 46px;
     width: 150px;
     border-radius: 7px;
+    border: none;
     background-color: white;
-    border-color: #004B8E;
     color: #004B8E;
     font-weight: bold;
     font-size: 16px;
@@ -178,6 +178,27 @@
     right: 70%;
     top: 30%;
 }
+.districtMarker{
+    display: flex;
+    height: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 5px;
+    color: #9BB5DA;
+}
+.barre {
+    height: 18px;
+    width: 0px;
+    background-color: #004B8E;
+    transition: width 2s linear;
+    margin-left: 10px;
+    max-width: 150px; 
+    border-radius: 5px;
+}
+
+.pledgeAmount{
+    margin-left: 30px;
+}
 /* Footer */
 .plainFooter{
     height: 10%;
@@ -189,4 +210,3 @@
     color: #4071B6;
     font-size: 14px;
 }
-

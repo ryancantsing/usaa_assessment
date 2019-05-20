@@ -1,9 +1,9 @@
 /* Main divs */
 .wrapper{
     display: inline-block;
-    max-height: 800px;
+    max-height: 1200px;
     width: 100%;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 .topHalf {
     background-color: #4071B6;
@@ -41,12 +41,12 @@
 }
 .rightSideLinks{
     display: inline-block;
-    height: 80%;
-    width: 35%;
-    float: right;
+    height: 100%;
+    width: 40%;
     margin-top: 5px;
-    margin-right: 20px;
+    margin-left: 30%;
     font-size: 12px;
+    
 }
 .LINK{
     display: inline-block;
@@ -55,7 +55,6 @@
     text-align: center;
     margin: auto;
     padding-top: 10px;
-    background-color: #4D7ABC;
     vertical-align: top;
 }
 .topLinks{
@@ -67,18 +66,20 @@
     text-decoration: none;
 }
 .textAndEmailRow{
-    display: inline-block;
+    display: flex;
     height: 60%;
     width: 100%;
     font-size: 24px;
     color: white;
+    text-align: center;
 }
 .centerDiv{
     width: 100%;
     height: 70%;
-    text-align: center;
     display: inline-block;
     padding-top: 35px;
+    padding-right: 100px;
+
 }
 .checkAndText{
     display: inline-block;
@@ -86,6 +87,7 @@
     width: 100%;
     color: white;
     text-align: center;
+
 }
 .emailInput{
     height: 34px;
@@ -124,13 +126,13 @@
 }
 .receiveUpdates{
     display: inline-block;
+    margin-right: 75px;
 }
 /* Bottom Parts */
 .bottomLeftSide{
-    display: inline-block;
-    width: 41%;
-    height: 100%;
-    margin-left: 10px;
+    display: block;
+    width: 100%;
+    height: 40%;
     vertical-align: top;
     text-align: center;
 }
@@ -143,33 +145,25 @@
     font-size: 30px;
     display: inline-block;
     color: #FBFCFD;
+    text-align: center;
+    margin-right: 100px;
 }
 .bottomCenterLogo{
-    display: inline-block;
-    width: 15%;
-    height: 68%;
-    vertical-align: top;
-    padding-top: 165px;
+    display: block;
+    width: 100%;
+    height: 20%;
+
 }
 .logoImage{
-    display: inline-block;
-    margin-left: 35px;
-    position: absolute;
-    right: 53%;
-    top: 25%;
-}
-.centerLine{
-    border-left: 1px solid white;
-    position: relative;
-    left: 50%;
-    height: 120%;
-    bottom: 60%;
+    margin-left: 37%;
+    display: block;
+
 }
 .bottomRightSide{
-    display: inline-block;
-    width: 41%;
-    height: 100%;
-    vertical-align: top;
+    display: block;
+    width: 100%;
+    height: 40%;
+    margin-left: 22%;
 }
 .leaderboardColor{
     color: #E2E9F4;
@@ -185,3 +179,24 @@
     font-size: 14px;
 }
 
+.districtMarker{
+    display: flex;
+    height: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 5px;
+    color: #9BB5DA;
+}
+.barre {
+    height: 18px;
+    width: 0px;
+    background-color: #004B8E;
+    transition: width 2s linear;
+    margin-left: 10px;
+    max-width: 150px; 
+    border-radius: 5px;
+}
+
+.pledgeAmount{
+    margin-left: 30px;
+}
