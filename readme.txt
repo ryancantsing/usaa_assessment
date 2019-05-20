@@ -27,3 +27,4 @@ wonderful day!
 
 Ryan Riddell
 
+EDIT: It was driving me crazy over the weekend so I made a branch called revision-with-better-stuff and made a few changes here and there. The master is still the one I did for the assessment. I just made that one to keep me sane but if you wanted to look at it I wouldn't mind.
